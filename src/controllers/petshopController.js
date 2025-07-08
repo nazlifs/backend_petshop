@@ -12,6 +12,7 @@ exports.addPetShop = async (req, res) => {
     });
     res.status(201).json(petshop);
   } catch (error) {
+    console.error("error in create", error);
     res.status(400).json({ error: "Error adding pet shop" });
   }
 };
