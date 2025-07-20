@@ -3,7 +3,7 @@ const cors = require("cors");
 const app = express();
 const petshopRoutes = require("./routes/petshopRoutes");
 
-// Middleware
+// Middleware.
 app.use(cors()); // Tambahkan ini untuk mengizinkan CORS
 app.use(express.json());
 

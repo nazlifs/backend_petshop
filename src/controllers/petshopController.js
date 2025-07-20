@@ -1,6 +1,6 @@
 const petshopService = require("../services/petshopService");
 
-// Controller untuk menambah pet shop
+// Controller untuk menambah pet shop.
 exports.addPetShop = async (req, res) => {
   try {
     const { nama, longitude, latitude, produk } = req.body;

@@ -1,7 +1,7 @@
 const { PrismaClient } = require("@prisma/client");
 const prisma = new PrismaClient();
 
-// Fungsi untuk menambah pet shop
+// Fungsi untuk menambah pet shop.
 exports.createPetShop = async (data) => {
   return await prisma.petShop.create({
     data: {

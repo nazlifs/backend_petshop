@@ -1,6 +1,6 @@
 Get http://localhost:8080/api/petshop
 
-###
+###.
 POST http://localhost:8080/api/petshop
 Content-Type: application/json
 
